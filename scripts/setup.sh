@@ -1,6 +1,7 @@
 #!/bin/bash
 
 export LC_ALL=C
+export AFL_IGNORE_UNKNOWN_ENVS=1
 
 export ROOT=$(dirname $(realpath $(dirname $0)))
 export WORK=$ROOT/work
@@ -12,6 +13,8 @@ export GRAMMARINATOR_DIR=$THIRD_PARTY/grammarinator
 export GRAMMARSV4_DIR=$THIRD_PARTY/grammars-v4
 export CSMITH_DIR=$THIRD_PARTY/csmith
 export AFLPLUSPLUS_DIR=$THIRD_PARTY/AFLplusplus
+export AFL_COV_DIR=$THIRD_PARTY/afl-cov
+export HONGGFUZZ_DIR=$THIRD_PARTY/honggfuzz
 
 export JERRY_TREE_CORPUS=$WORK/grammarinator/jerry_tree_corpus
 export JERRY_SRC_CORPUS=$WORK/jerry_src_corpus
