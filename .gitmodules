@@ -1,0 +1,18 @@
+[submodule "third-party/jerryscript"]
+	path = third-party/jerryscript
+	url = https://github.com/jerryscript-project/jerryscript.git
+[submodule "third-party/AFLplusplus"]
+	path = third-party/AFLplusplus
+	url = https://github.com/AFLplusplus/AFLplusplus.git
+[submodule "third-party/radamsa"]
+	path = third-party/radamsa
+	url = https://gitlab.com/akihe/radamsa.git
+[submodule "third-party/csmith"]
+	path = third-party/csmith
+	url = https://github.com/csmith-project/csmith.git
+[submodule "third-party/grammarinator"]
+	path = third-party/grammarinator
+	url = https://github.com/renatahodovan/grammarinator.git
+[submodule "third-party/grammars-v4"]
+	path = third-party/grammars-v4
+	url = https://github.com/antlr/grammars-v4.git
